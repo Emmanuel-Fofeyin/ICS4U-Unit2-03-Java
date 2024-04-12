@@ -35,7 +35,7 @@ final class Main {
         final String lengthString = "length: ";
         final String isEmptyString = "is empty: ";
 
-        final CurtisStack fruits = new CurtisStack();
+        final EmmanuelStack fruits = new EmmanuelStack();
         fruits.push("apple");
         fruits.push("banana");
         fruits.push("cherry");
@@ -46,7 +46,7 @@ final class Main {
         System.out.println(isEmptyString + fruits.isEmpty());
         System.out.println("");
 
-        final CurtisStack colours = new CurtisStack();
+        final EmmanuelStack colours = new EmmanuelStack();
         colours.push("red");
         colours.push("green");
         colours.push("blue");
@@ -58,7 +58,7 @@ final class Main {
         System.out.println(isEmptyString + colours.isEmpty());
         System.out.println("");
 
-        final CurtisStack shapes = new CurtisStack();
+        final EmmanuelStack shapes = new EmmanuelStack();
         shapes.push("square");
         shapes.push("triangle");
         shapes.push("circle");

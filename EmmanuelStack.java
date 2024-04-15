@@ -49,7 +49,7 @@ public class EmmanuelStack {
                 values += ", ";
             }
         }
-    return values;
+        return values;
     }
 
     /**
